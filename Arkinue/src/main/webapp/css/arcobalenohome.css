@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+.espandibile{
+	width: 10vw;
+	aspect-ratio: 1 / 1;
+	transition: 0.5s;
+}
+
+.espandibile:hover{
+	width: 50vw;
+	height: 10vw;
+	
+}
+
+#content7{
+	border-radius: 3rem;
+}

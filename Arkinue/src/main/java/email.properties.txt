@@ -1,0 +1,8 @@
+enabled = true
+from = arkinue52@gmail.com
+username = arkinue52
+password = wwvjwvtbypzradbv
+mail.smtp.host = smtp.gmail.com
+mail.smtp.port = 465
+mail.smtp.auth = true
+mail.smtp.socketFactory.port = 465

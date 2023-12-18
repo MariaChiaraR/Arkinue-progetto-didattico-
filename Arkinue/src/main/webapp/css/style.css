@@ -1,0 +1,634 @@
+@charset "ISO-8859-1";
+
+.contenitore
+{
+	background-color: #3B71CA;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 10px;
+	min-height: 5vh;
+	max-height: 5vh;
+	max-width: 25vw;
+	display: flex;
+	align-items: center;
+}
+
+body
+{
+	background-color: whitesmoke;
+}
+
+.pulsanteAdmin
+{
+	max-width: 8vw;
+	
+}
+
+.campi
+{
+	margin: 1rem;
+}
+
+.boxconsigliati {
+	display: flex;
+	z-index: 0;
+	margin: 3%;
+	flex-grow: 1;
+	justify-self: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.boxconsigliati img {
+	height: 10rem;
+	width: 10rem;
+	object-fit: cover;
+}
+
+.consigliati {
+	display:flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.arcobaleno {
+	display: inline;
+	z-index: 5;
+	padding: 0%;
+	margin: 3%;
+	margin-left: 0%;
+}
+
+.arcobaleno:hover .divicona1{
+	transition: 0.5;
+	width: 25rem;
+	height: 5rem;
+}
+.arcobaleno:hover .divicona2{
+	transition: 0.5;
+	width: 30rem;
+	height: 5rem;
+}
+.arcobaleno:hover .divicona3{
+	transition: 0.5;
+	width: 35rem;
+	height: 5rem;
+}
+.arcobaleno:hover .divicona4{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.arcobaleno:hover .divicona5{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.arcobaleno:hover .divicona6{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.arcobaleno:hover .divicona7{
+	transition: 0.5;
+	width: 60rem;
+	height: 5rem;
+}
+
+.arcobaleno img{
+	transition: 0.5s;
+	width: 7rem;
+	height: 7rem;
+}
+
+.arcobaleno:hover img{
+	transition: 0.5s;
+	width: 5rem;
+	height: 5rem;
+}
+
+.arcoprodotti img{
+	width: 11rem !important;
+	height: 11rem !important;
+	object-fit: cover;
+}
+
+.arcoprodotti {
+	z-index: 5;
+	padding: 1%;
+	padding-right: 10%;
+	justify-content: space-around;
+}
+
+
+/* div icona 1 */
+
+.divicona1 {
+	transition: 0.5s;
+	width: 12rem;
+	height: 7rem;
+	border-radius: 0px 65px 65px 0px;
+}
+
+.divicona1:hover {
+	transition: 0.5s;
+	width: 60rem !important;
+	height: 20rem  !important;
+	border-radius: 0px 160px 160px 0px;
+}
+
+.divicona1 h4{
+	display: none;
+}
+
+.divicona1:hover h4 {
+	display: inline;
+	padding: 1%;
+	color: black;
+}
+
+.oggetto1{
+display: none;
+}
+
+.divicona1:hover .oggetto1{
+	display: flex;
+	overflow: hidden;
+}
+
+.divicona1:hover ~ .divicona2{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona1:hover ~ .divicona3{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona1:hover ~ .divicona4{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.divicona1:hover ~ .divicona5{
+	transition: 0.5;
+	width: 35rem;
+	height: 5rem;
+}
+.divicona1:hover ~ .divicona6{
+	transition: 0.5;
+	width: 30rem;
+	height: 5rem;
+}
+.divicona1:hover ~ .divicona7{
+	transition: 0.5;
+	width: 25rem;
+	height: 5rem;
+}
+
+/* div icona 2 */
+
+.divicona2 {
+	transition: 0.5s;
+	width: 12rem;
+	height: 7rem;
+	border-radius: 0px 65px 65px 0px;
+}
+
+.divicona2:hover {
+	transition: 0.5s;
+	width: 60rem !important;
+	height: 20rem  !important;
+	border-radius: 0px 160px 160px 0px;
+}
+
+.divicona2 h4{
+	display: none;
+}
+
+.divicona2:hover h4 {
+	display: inline;
+	padding: 1%;
+	color: black;
+}
+
+.oggetto2{
+display: none;
+}
+
+.divicona2:hover .oggetto2{
+	display: flex;
+	overflow: hidden;
+}
+
+.divicona2:hover ~ .divicona1{
+	transition: 0.5;
+	width: 45rem !important;
+	height: 5rem;
+}
+.divicona2:hover ~ .divicona3{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona2:hover ~ .divicona4{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona2:hover ~ .divicona5{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.divicona2:hover ~ .divicona6{
+	transition: 0.5;
+	width: 35rem;
+	height: 5rem;
+}
+.divicona2:hover ~ .divicona7{
+	transition: 0.5;
+	width: 30rem;
+	height: 5rem;
+}
+
+/* div icona 3 */
+
+.divicona3 {
+	transition: 0.5s;
+	width: 12rem;
+	height: 7rem;
+	border-radius: 0px 65px 65px 0px;
+}
+
+.divicona3:hover {
+	transition: 0.5s;
+	width: 60rem !important;
+	height: 20rem  !important;
+	border-radius: 0px 160px 160px 0px;
+}
+
+.divicona3 h4{
+	display: none;
+}
+
+.divicona3:hover h4 {
+	display: inline;
+	padding: 1%;
+	color: black;
+}
+
+.oggetto3{
+display: none;
+}
+
+.divicona3:hover .oggetto3{
+	display: flex;
+	overflow: hidden;
+}
+
+.divicona3:hover ~ .divicona1{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona3:hover ~ .divicona2{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona3:hover ~ .divicona4{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona3:hover ~ .divicona5{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona3:hover ~ .divicona6{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.divicona3:hover ~ .divicona7{
+	transition: 0.5;
+	width: 35rem;
+	height: 5rem;
+}
+
+/* div icona 4 */
+
+.divicona4 {
+	transition: 0.5s;
+	width: 12rem;
+	height: 7rem;
+	border-radius: 0px 65px 65px 0px;
+}
+
+.divicona4:hover {
+	transition: 0.5s;
+	width: 60rem !important;
+	height: 20rem  !important;
+	border-radius: 0px 160px 160px 0px;
+}
+
+.divicona4 h4{
+	display: none;
+}
+
+.divicona4:hover h4 {
+	display: inline;
+	padding: 1%;
+	color: black;
+}
+
+.oggetto4{
+display: none;
+}
+
+.divicona4:hover .oggetto4{
+	display: flex;
+	overflow: hidden;
+}
+
+.divicona4:hover ~ .divicona1{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.divicona4:hover ~ .divicona2{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona4:hover ~ .divicona3{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona4:hover ~ .divicona5{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona4:hover ~ .divicona6{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona4:hover ~ .divicona7{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+
+/* div icona 5 */
+
+.divicona5 {
+	transition: 0.5s;
+	width: 12rem;
+	height: 7rem;
+	border-radius: 0px 65px 65px 0px;
+}
+
+.divicona5:hover {
+	transition: 0.5s;
+	width: 70rem !important;
+	height: 20rem !important;
+	border-radius: 0px 160px 160px 0px;
+}
+
+.divicona5 h4{
+	display: none;
+}
+
+.divicona5:hover h4 {
+	display: inline;
+	padding: 1%;
+	color: black;
+}
+
+.oggetto5{
+display: none;
+}
+
+.divicona5:hover .oggetto5{
+	display: flex;
+	overflow: hidden;
+}
+
+.divicona5:hover ~ .divicona1{
+	transition: 0.5;
+	width: 35rem;
+	height: 5rem;
+}
+.divicona5:hover ~ .divicona2{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.divicona5:hover ~ .divicona3{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona5:hover ~ .divicona4{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona5:hover ~ .divicona6{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona5:hover ~ .divicona7{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+
+/* div icona 6 */
+
+.divicona6 {
+	transition: 0.5s;
+	width: 12rem;
+	height: 7rem;
+	border-radius: 0px 65px 65px 0px;
+}
+
+.divicona6:hover {
+	transition: 0.5s;
+	width: 60rem !important;
+	height: 20rem !important;
+	border-radius: 0px 160px 160px 0px;
+}
+
+.divicona6 h4{
+	display: none;
+}
+
+.divicona6:hover h4 {
+	display: inline;
+	padding: 1%;
+	color: black;
+}
+
+.oggetto6{
+display: none;
+}
+
+.divicona6:hover .oggetto6{
+	display: flex;
+	overflow: hidden;
+}
+
+.divicona6:hover ~ .divicona1{
+	transition: 0.5;
+	width: 30rem;
+	height: 5rem;
+}
+.divicona6:hover ~ .divicona2{
+	transition: 0.5;
+	width: 35rem;
+	height: 5rem;
+}
+.divicona6:hover ~ .divicona3{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.divicona6:hover ~ .divicona4{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona6:hover ~ .divicona5{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+.divicona6:hover ~ .divicona7{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+
+/* div icona 7 */
+
+.divicona7 {
+	transition: 0.5s;
+	width: 12rem;
+	height: 7rem;
+	border-radius: 0px 65px 65px 0px;
+}
+
+.divicona7:hover {
+	transition: 0.5s;
+	width: 60rem !important;
+	height: 20rem !important;
+	border-radius: 0px 160px 160px 0px;
+}
+
+.divicona7 h4{
+	display: none;
+}
+
+.divicona7:hover h4 {
+	display: inline;
+	padding: 1%;
+	color: black;
+}
+
+.oggetto7{
+display: none;
+}
+
+.divicona7:hover .oggetto7{
+	display: flex;
+	overflow: hidden;
+}
+
+.divicona7:hover ~ .divicona1{
+	transition: 0.5;
+	width: 25rem;
+	height: 5rem;
+}
+.divicona7:hover ~ .divicona2{
+	transition: 0.5;
+	width: 30rem;
+	height: 5rem;
+}
+.divicona7:hover ~ .divicona3{
+	transition: 0.5;
+	width: 35rem;
+	height: 5rem;
+}
+.divicona7:hover ~ .divicona4{
+	transition: 0.5;
+	width: 40rem;
+	height: 5rem;
+}
+.divicona7:hover ~ .divicona5{
+	transition: 0.5;
+	width: 45rem;
+	height: 5rem;
+}
+.divicona7:hover ~ .divicona6{
+	transition: 0.5;
+	width: 50rem;
+	height: 5rem;
+}
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: auto;
+  width: 10re,;
+
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #e81416; /* Black fallback color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  padding: 0.3rem;
+  margin-right: 0rem;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 0%; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: relative;
+  font-size: 20px;
+}
+
